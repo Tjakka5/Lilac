@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../src/Lilac/Property.ts"],"names":["this"],"mappings":";;;AAAA,kBAAkB;AAAX;AAEP;AAAA;UAAqB,uBAArB;AAAA;AAKC,sDAAa;AACZ,QAAAA,aAAa;AAEb,QAAAA,gBAAgB,UAAI;IAHrB;AAMA,0CAAI;WACC,AAAAA,cAAc;AACX,6BAAW,AAAAA;AAEjB,YAAAA,aAAa;YAEb,AAAAA,cAAc,OAAO,OAAO;;IAN9B;AAUA;AACC,eAAO,AAAAA;IADR;WArBoB","file":"../../src/Lilac/Property.lua","sourceRoot":""}

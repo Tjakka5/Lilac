@@ -1,0 +1,38 @@
+{
+	"path-autocomplete.pathMappings": {
+		"$root": "${folder}/src",
+	},
+	"editor.codeActionsOnSave": {
+		"source.fixAll": true,
+		"source.organizeImports": true,
+	},
+	"eslint.format.enable": true,
+
+	"files.exclude": {
+		// Ew node
+		"build/": true,
+		"node_modules/": true,
+		
+		// Ugly configuration and repo stuff
+		//".eslintrc.js": true,
+		".gitignore": true,
+		"LICENSE": true,
+		//"package.json": true,
+		"package-lock.json": true,
+		"README.md": true,
+		"tsconfig.json": true,
+		
+		// Lilac stuff
+		// "src/Lilac/": true,
+		// "src/main.lua": true,
+		// "src/conf.ts": true,
+		// "src/init.ts": true,
+	},
+
+	"VSCodeCounter.exclude": [
+		"**/.gitignore",
+		"**/.vscode/**",
+		"**/node_modules/**",
+		"build/"
+	]
+}

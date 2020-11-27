@@ -1,0 +1,32 @@
+export default class Queue<T> {
+	private elements: Table<number, T> = new Table();
+
+	enqueue(element: T) {
+
+	}
+
+	dequeue(element: T) {
+
+	}
+
+	peek() {
+
+	}
+
+	tryPeek() {
+
+	}
+
+	tryDequeue() {
+
+	}
+
+	has() {
+
+	}
+
+
+	clear() {
+
+	}
+}

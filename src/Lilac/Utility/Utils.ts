@@ -1,0 +1,2 @@
+export const luaTablePairs = pairs as <K, V>(this: void, t: Table<K, V>) => LuaTupleIterable<[K, V]>
+export const luaTableIpairs = ipairs as <V>(this: void, t: Table<number, V>) => LuaTupleIterable<[number, V]>

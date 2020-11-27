@@ -1,0 +1,19 @@
+{
+	"exclude": ["build"],
+  "compilerOptions": {
+    "target": "esnext",
+    "moduleResolution": "node",
+    "types": ["lua-types/jit", "love-typescript-definitions"],
+    "strict": true,
+    "outDir": "build",
+    "rootDir": "src",
+		"baseUrl": "src",
+		"sourceMap": true,
+		"noLib": true,
+  },
+  "tstl": {
+    "luaTarget": "JIT",
+    "noHeader": true,
+    "sourceMapTraceback": true,
+  }
+}
